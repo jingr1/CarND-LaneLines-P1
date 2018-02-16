@@ -8,8 +8,6 @@
 
 [image1]: ./test_images_output/whiteCarLaneSwitch.jpg
 
----
-
 
 ### 1. Overview of the pipeline.
 
@@ -26,8 +24,6 @@ In order to draw a single line on the left and right lanes, I create a new help 
     * If the slope is negative, the line belongs to the left lane.
 2. find a best fit line using the least square method,it’s possible to easily calculate that by using np.polyfit().
 3. draw a line from the bottom of the region of interest to the top of it
-
-If you'd like to include images to show how the pipeline works, here is how to include an image:
 
 The image below shows the final output of the pipeline:
 ![alt text][image1]
